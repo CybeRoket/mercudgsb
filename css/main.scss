@@ -1,0 +1,112 @@
+html, body {
+    font-family: 'Univers LT Std', sans-serif; 
+    font-size: 1rem;                                                   
+}
+
+// header
+header {
+    .header-container {
+        margin: 0 103px;
+
+        .site-logo-container {
+            height: 86px;
+
+            .site-logo {
+                width: 72px;
+                height: 59px;
+            }
+        }    
+
+        .header-menu {
+            border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+            .header-menu-ul {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+
+                .menu-item {
+                    .nav-link {
+                        span {
+                            text-transform: uppercase;
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//footer
+footer {
+    // height: 256px;
+    background-color: #333333;
+    border-top: 6px solid #BD1E2D;
+
+    .footer-top {
+        height: 200px;
+        margin: 0;
+        
+        .company-details {
+            img {
+                width: 59px;
+                margin-bottom: 20px;
+            }
+
+            h6 {
+                color: white;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            span {
+                color: white;
+                font-size: 0.9rem;
+            }
+        }
+
+        .subscribe {
+            color: white;
+
+            span {
+              text-transform: uppercase;  
+              font-weight: 700;
+            }
+
+            small {
+
+            }
+
+            .input-group {
+                input {
+                    background: #ffffff00;
+                    border: 0;
+                    border-bottom: 1px solid white;
+                    border-radius: 0;
+                    color: white;
+    
+                    &:focus {
+                        background: #ffffff00;
+                        border: 0;
+                        margin-top: 10px;
+                        border-bottom: 1px solid white;
+                        border-radius: 0;
+                    }
+                }
+            }            
+        }
+
+        .social-footer {
+            span {
+                color: white;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+
+    .footer-btm {
+        margin: 0;
+    }
+}

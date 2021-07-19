@@ -1,0 +1,96 @@
+html, body {
+  font-family: 'Univers LT Std', sans-serif;
+  font-size: 1rem;
+}
+
+header .header-container {
+  margin: 0 103px;
+}
+
+header .header-container .site-logo-container {
+  height: 86px;
+}
+
+header .header-container .site-logo-container .site-logo {
+  width: 72px;
+  height: 59px;
+}
+
+header .header-container .header-menu {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+header .header-container .header-menu .header-menu-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+header .header-container .header-menu .header-menu-ul .menu-item .nav-link span {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333333;
+  border-top: 6px solid #BD1E2D;
+}
+
+footer .footer-top {
+  height: 200px;
+  margin: 0;
+}
+
+footer .footer-top .company-details img {
+  width: 59px;
+  margin-bottom: 20px;
+}
+
+footer .footer-top .company-details h6 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer .footer-top .company-details span {
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer .footer-top .subscribe {
+  color: white;
+}
+
+footer .footer-top .subscribe span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer .footer-top .subscribe .input-group input {
+  background: #ffffff00;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+
+footer .footer-top .subscribe .input-group input:focus {
+  background: #ffffff00;
+  border: 0;
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+
+footer .footer-top .social-footer span {
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .footer-btm {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
